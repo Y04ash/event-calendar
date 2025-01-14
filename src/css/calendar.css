@@ -1,0 +1,11 @@
+.calendar{
+    height: 90%;
+    width: 80%;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}

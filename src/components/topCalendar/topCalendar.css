@@ -1,0 +1,75 @@
+.top-calendar{
+    position: relative;
+    top:0 ;
+    left: 0;
+    height: 20%;
+    border: 1px solid black;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    display: flex;
+    color: white;
+    background: linear-gradient(109.6deg, rgb(6, 183, 249) 11.2%, rgb(25, 74, 236) 91.1%);
+}
+.current-year-wrapper{
+    position: relative;
+    max-width: 20%;
+}
+.current-year{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 3rem;
+    vertical-align: middle;
+    position: absolute;
+    display: inline;
+    max-width: 100px;
+    padding-top: 9px;
+}
+.current-date-wrapper{
+    position: relative;
+}
+.current-date{
+    text-align: center;
+    position: relative;
+    display: inline;
+    font-size: 2rem;
+    height: 4rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+.dropdown-wrapper{
+    max-width: 15%;
+}
+.hamburger-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.drop-down-select{
+    color: black;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.hamburger{
+    margin-right: 5%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    vertical-align: center;
+}
+.days{
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: repeat(7, 1fr);
+    display: grid;
+    text-align: center;
+    vertical-align: baseline;
+    height: auto;
+}
+.days >p{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}

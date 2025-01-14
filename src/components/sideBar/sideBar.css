@@ -1,0 +1,106 @@
+.offcanvas-header{
+    height: auto;
+    border: 1px solid black;
+}
+.search{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(194, 194, 194);
+    margin-top: 1rem ;
+    /* border-radius: 10px; */
+}
+.search-form{
+    height: 100%;
+}
+.search-input{
+    height: 100%;
+}
+.add-view-btn{
+    display: flex;
+    gap: 10px;
+    height: auto;
+}
+.add-btn,.view-btn{
+    height: 2rem;
+    max-width: 5rem;
+    border: 1px solid black;
+}
+
+/* add event */
+
+.addEventWrapper,.viewEventWrapper{
+    height: auto;
+}
+.autoheight{
+    height: auto;
+}
+
+/* view event */
+.individual-event-wrapper{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.event-title{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-name{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.event-title-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+.edit-btn{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+.event-time{
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    color: rgb(104, 103, 103);
+}
+.event-body{
+    position: relative;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+.event-type {
+    position: absolute;
+    top:1%;
+    right: 5%;
+    width: auto;
+    padding: 3px;
+    font-size: 0.7rem;
+    border-radius: 8px;
+    min-width: 4rem;
+    text-align: center;
+}
+.pink{
+    background-color: rgb(206, 61, 85);
+    color: white;
+}
+.green{
+    background-color: greenyellow;
+    color: white;
+    
+}
+.blue{
+    background-color: aqua;
+    color: white;
+
+}
