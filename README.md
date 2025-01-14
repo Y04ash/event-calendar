@@ -19,7 +19,9 @@ A sidebar displays events for the selected date, providing a clean and intuitive
 # Command to run the code
 After cloning the repo
 cd dacoidNotionProject
+
 npm i
+
 npm run dev
 
 Currently, two official plugins are available:
