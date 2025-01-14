@@ -13,7 +13,7 @@ Add Events to Specific Dates:
 Users can add custom events to any specific date.
 
 View Events:
-A sidebar displays events for the selected date, providing a clean and intuitive way to manage and view scheduled activities.
+A sidebar displays events for the selected date, providing a clean and intuitive way to manage and view scheduled activities. And apply filter to search events of specific day
 
 
 # Command to run the code
