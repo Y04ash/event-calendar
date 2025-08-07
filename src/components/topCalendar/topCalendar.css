@@ -73,3 +73,10 @@
     margin-bottom: 0;
     font-size: 0.8rem;
 }
+
+@media (max-width:768px){
+    .current-date{
+        top: 25%;
+        font-size: 1.5rem;
+    }
+}

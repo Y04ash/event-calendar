@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 // import year from '../data.js';
 import TopCalendar from './topCalendar/TopCalendar.jsx';
 import BottomCalendar from './bottomCalendar/BottomCalendar.jsx'
+import '../App.css'
 import '../css/calendar.css'
 import SideBar from './sideBar/SideBar.jsx'
 import { useContext,createContext } from 'react';

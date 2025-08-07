@@ -9,3 +9,10 @@
     transform: translate(-50%,-50%);
     
 }
+
+@media (max-width:768px) {
+    .calendar{
+        height: 98%;
+        width: 98%;
+    }
+}
